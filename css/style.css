@@ -170,3 +170,124 @@
     
 
 }
+
+/* ------------------------TARJETAS---------------------------- */
+
+.tarjetas{
+    margin-top: 15px;
+    padding:25px 15px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas__contenedor-uno,
+.tarjetas__contenedor-dos,
+.tarjetas__contenedor-tres,
+.tarjetas__contenedor-cuatro {
+     background-color: #006241;
+     margin-top: 25px;
+     height: 380px;
+     position: relative;
+   
+}
+    
+.tarjetas__contenedor-uno-imagen,
+.tarjetas__contenedor-dos-imagen,
+.tarjetas__contenedor-tres-imagen,
+.tarjetas__contenedor-cuatro-imagen {
+    width: 100%;
+   
+}
+
+h2 span{
+ color: yellow;
+
+}
+
+.tarjetas__contenedor-uno-texto-mediano,
+.tarjetas__contenedor-dos-texto-mediano,
+.tarjetas__contenedor-tres-texto-mediano,
+.tarjetas__contenedor-cuatro-texto-mediano{
+    padding-top: 5px;
+    
+}
+
+
+.tarjetas__contenedor-uno-enlace,
+.tarjetas__contenedor-dos-enlace-uno,
+.tarjetas__contenedor-dos-enlace-dos,
+.tarjetas__contenedor-tres-enlace,
+.tarjetas__contenedor-cuatro-enlace{
+
+    background-color: inherit;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas__contenedor-uno-enlace{
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.tarjetas__contenedor-dos-enlace-uno,
+.tarjetas__contenedor-dos-enlace-dos{
+    text-align: center;
+    padding-bottom: 2px;
+}
+.tarjetas__contenedor-uno,
+.tarjetas__contenedor-dos{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas__contenedor-uno-enlace:hover,
+.tarjetas__contenedor-dos-enlace-uno:hover,
+.tarjetas__contenedor-dos-enlace-dos:hover,
+.tarjetas__contenedor-tres-enlace:hover,
+.tarjetas__contenedor-cuatro-enlace:hover{
+    background-color: yellow;
+    color: white;
+}
+
+.tarjetas__contenedor-uno-texto-pequeño,
+.tarjetas__contenedor-dos-texto-pequeño,
+.tarjetas__contenedor-tres-texto-pequeño,
+.tarjetas__contenedor-cuatro-texto-pequeño,
+h2{
+    margin:10px 0 ;
+    padding: 0px 15px;
+}
+
+.tarjetas__contenedor-uno-texto-pequeño,
+.tarjetas__contenedor-tres-texto-pequeño,
+.tarjetas__contenedor-cuatro-texto-pequeño{
+    padding-bottom: 15px;
+}
+
+.tarjetas__contenedor-uno-descuento,
+.tarjetas__contenedor-dos-descuento{
+    background-color: yellow;
+    border-radius: 50%;
+    color: black;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -15px;
+    top:10opx
+    
+
+}
