@@ -10,9 +10,7 @@
         color: white;
     
     }
-    
     /* -----------------HEADER--------- */
-    
     .header{
     background-color: #006241;
     -webkit-box-shadow: -1px 6px 33px 11px rgba(0,0,0,0.75);
@@ -54,3 +52,38 @@
         
     }
     
+    /* ---------------------MAIN--------------- */
+    .main{
+        margin-top: 90px;
+        padding: 15px 15px 60px ;
+       
+        
+    }
+    
+    .main__texto{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .main__contenedor{
+        display: none;
+        
+    }
+    
+    .main__texto-mediano{
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    
+    .main__texto-mediano span{
+        color: #006241;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    .main__texto-pequeño{
+        margin-top: 20px;
+        font-weight:bolder ;
+    }
