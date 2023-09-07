@@ -333,3 +333,168 @@ h2{
     color: #00ff04;
 }
 
+/* ----------------------------  ACA EMPIEZA  TABLET  ------------------*/
+
+@media(min-width:768px) {
+
+    .header__mobile{
+        display: none;
+    }
+    
+    .header__logo-persona{
+        display: block;
+        padding: 7px;
+        color: white;
+        font-size: 30px;
+    }
+    
+    .header__navegacion-link{
+        display:block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+         padding: 19px;
+        
+    }
+    
+    .main{
+        display: flex;
+        padding: 15px 30px  60px 50px
+       
+        
+    }
+     
+    .main__contenedor{
+        display: block;
+        
+        width: 50%;
+    }
+    
+    .main__contenedor-imagen{
+        width: 100%;
+        justify-content: center;
+        align-items:center;
+    }
+    
+    .main__texto{
+        width: 50%;
+        font-weight: bold;
+    
+    }
+    
+    .galeria{
+        background-color: #006241;
+        display: flex;
+        flex-direction: row;
+        
+        }
+    
+        
+    .galeria__contenedor-uno-imagen,
+    .galeria__contenedor-dos-imagen,
+    .galeria__contenedor-tres-imagen{
+        padding-left: 10px;
+        width: 90%; }
+    
+    .Formularios__contenedor-items{
+        
+        width: 70%;
+       margin: auto;
+    }    
+    
+    .Formularios__contenedor-titulo,
+    .Formularios__contenedor-titulo-contacto{
+        font-size: 60px;
+       padding-bottom: 10px;
+    }
+    
+    .tarjetas{
+        margin-top: 15px;
+        padding:25px 30px ;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+       
+     .tarjetas__contenedor-uno,
+     .tarjetas__contenedor-dos,
+     .tarjetas__contenedor-tres,
+     .tarjetas__contenedor-cuatro {
+         background-color: #006241;
+         margin-top: 25px;
+         height: 450px;
+         width: 340px;
+         position: relative;
+         padding-bottom: 100px;
+         justify-content: space-between;
+         
+        }
+        
+     .tarjetas__contenedor-uno-texto-mediano,
+     .tarjetas__contenedor-dos-texto-mediano,
+     .tarjetas__contenedor-tres-texto-mediano,
+     .tarjetas__contenedor-cuatro-texto-mediano{
+            padding-top: 5px;
+            
+            
+        }
+        
+    
+    
+    .tarjetas__contenedor-dos-enlace-uno,
+    .tarjetas__contenedor-dos-enlace-dos{
+        text-align: center;
+        padding-bottom: 2px;
+    }
+    
+    .tarjetas__contenedor-tres-enlace,
+    .tarjetas__contenedor-cuatro-enlace {
+       margin-top: 50px;
+    }
+    
+    .tarjetas__contenedor-uno-enlace,
+    .tarjetas__contenedor-dos-enlace-uno,
+    .tarjetas__contenedor-dos-enlace-dos,
+    .tarjetas__contenedor-tres-enlace,
+    .tarjetas__contenedor-cuatro-enlace{
+        width: 220px;
+        margin-left: 50px;
+    }
+    
+    .footer{
+        padding: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding-left: 50px;
+        
+        
+        
+    }
+    .footer__contenedor-izquierda,
+    .footer__contenedor-centro,
+    .footer__contenedor-derecha{
+        flex-wrap: nowrap;
+        padding: 10px;
+        
+        
+    }
+    
+    .footer__contenedor-centro-enlace-uno,
+    .footer__contenedor-centro-enlace-dos,
+    .footer__contenedor-centro-enlace-tres{
+        
+        padding: 20px;
+        
+        
+    }
+        
+    
+    
+    .footer__contenedor-izquierda-enlace-uno{
+    margin-right: 20px;
+    }
+    
+    }
