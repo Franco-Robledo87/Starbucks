@@ -97,3 +97,76 @@
   width: 85%;
 }
 
+/* ---------------------------FORMULARIOS---------------------- */
+.Formularios{
+    background-color: black;
+    padding: 40px 15px ;
+}
+
+.Formularios__contenedor-items{
+    background-color: #006241;
+    padding: 15px;
+    margin: 30px 18px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.Formularios__contenedor-titulo,
+.Formularios__contenedor-titulo-contacto{
+    color: #006241;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Formularios__contenedor-items-primero,
+.Formularios__contenedor-items-segundo{
+    color:white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid#006241 ;
+    
+    
+    
+}
+
+.Formularios__contenedor-items-primero-correo-placeholder,
+.Formularios__contenedor-items-segundo-area-texto{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid#006241 ;
+    color: #006241;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    width: 100% ;
+}
+
+.Formularios__contenedor-items-primero-correo-placeholder:focus,
+.Formularios__contenedor-items-segundo-area-texto:focus{
+    background-color: black;
+    color: white;
+}
+
+.Formularios__contenedor-boton-enviar{
+    background-color: inherit;
+    border: 2px solid white;
+    padding: 5px 10px;
+    width: 115px;
+    font-size: 15px;
+    border-radius: 15px;
+    margin: 10px 5px;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+
+.Formularios__contenedor-boton-enviar:hover{
+    background-color: yellow;
+    color: white;
+    
+
+}
