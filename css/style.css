@@ -291,3 +291,45 @@ h2{
     
 
 }
+
+/* ----------------------------FOOTER-------------------------- */
+
+.footer{
+    background-color: black;
+    padding: 25%;
+    
+}
+
+.footer__contenedor-izquierda,
+.footer__contenedor-centro,
+.footer__contenedor-derecha {
+    
+    display: flex;
+    flex-wrap:wrap ;
+
+}
+
+.footer__contenedor-centro-enlace-uno,
+.footer__contenedor-centro-enlace-dos,
+.footer__contenedor-centro-enlace-tres{
+    padding: 10px;
+    font-size: 25px;
+    color: #006241;
+
+}
+    
+.footer__contenedor-izquierda-enlace-uno,
+.footer__contenedor-izquierda-enlace-dos,
+.footer__contenedor-derecha-enlace{
+    text-decoration: none;
+    color: #006241;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer__contenedor-derecha-enlace{
+    color: #00ff04;
+}
+
